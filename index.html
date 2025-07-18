@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spice Garden - Authentic Indian Cuisine Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo-container">
+                    <div class="logo-icon"></div>
+                    <h1 class="logo">Spice Garden </h1>
+                </div>
+                <p class="tagline">Authentic Indian Cuisine Menu </p>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <section class="menu-controls">
+                <div class="search-container">
+                    <input type="text" id="searchInput" placeholder="Search menu items..." class="search-input">
+                </div>
+                
+                <div class="category-filters">
+                    <button class="filter-btn active" data-category="all">All</button>
+                    <button class="filter-btn" data-category="appetizers">Starters</button>
+                    <button class="filter-btn" data-category="mains">Main Dishes</button>
+                    <button class="filter-btn" data-category="desserts">Desserts</button>
+                    <button class="filter-btn" data-category="drinks">Beverages</button>
+                    <button class="filter-btn" data-category="rolls">Rolls</button>
+                </div>
+            </section>
+
+            <section class="menu-grid" id="menuGrid">
+                <!-- Menu items will be populated by JavaScript -->
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>About Spice Garden</h3>
+                    <p>Established in 1995, Spice Garden has been serving authentic Indian cuisine with traditional recipes passed down through generations. Our chef , <strong>Rajesh Kumar</strong>, brings over 25 years of culinary expertise from Mumbai to create an unforgettable dining experience.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Contact Information</h3>
+                    <div class="contact-info">
+                        123 Curry Lane, Spice District, Mumbai - 400001
+                    </div>
+                    <div class="contact-info phone">
+                        +11 12054 78056
+                    </div>
+                    <div class="contact-info email">
+                        info@spicegarden.com
+                    </div>
+                    <div class="contact-info hours">
+                        Daily: 11:00 AM - 11:00 PM
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Our Specialties</h3>
+                    <ul>
+                        <li>Traditional Tandoor Dishes</li>
+                        <li>Authentic Biryani Varieties</li>
+                        <li>Fresh Homemade Naan</li>
+                        <li>Regional Indian Curries</li>
+                        <li>Traditional Indian Desserts</li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul>
+                        <li>Dine-in Experience</li>
+                        <li>Takeaway Orders</li>
+                        <li>Home Delivery</li>
+                        <li>Catering Services</li>
+                        <li>Private Party Bookings</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Spice Garden Restaurant. All rights reserved. | Owner: Sujal Rastogi</p>
+                <div class="developer-credit">
+                    Website developed by <a href="sujalrastogi.72@gmail.com.com">Sujal Rastogi</a> | Contact: +91 9528879243
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
